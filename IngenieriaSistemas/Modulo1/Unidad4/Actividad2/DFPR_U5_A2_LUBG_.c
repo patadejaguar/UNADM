@@ -8,6 +8,11 @@
 #endif // __linux
 
 #define itemsMax 4
+// Balam Gonzalez Luis Humberto
+// Agosto2018
+// https://blog.patadejaguar.xyz
+// #CANSI
+
 
 /**
     Fecha,

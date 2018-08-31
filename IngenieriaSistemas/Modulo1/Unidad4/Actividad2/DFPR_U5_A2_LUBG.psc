@@ -1,3 +1,8 @@
+// Balam Gonzalez Luis Humberto
+// Agosto2018
+// https://blog.patadejaguar.xyz
+// #PSINT Algoritmo
+
 Proceso registroSEDESOL
 	Definir itemsMax Como Entero;
 	Definir contador Como Entero;
