@@ -15,20 +15,27 @@
 
 
 /**
+	Tipo struct para encapsular las propiedades
     Fecha,
     Nombre del beneficiado,
     Edad,
     Direccion,
-    Número de Integrantes de su familia,
+    Numero de Integrantes de su familia,
     Tipo de sangre.
 */
 
 struct  Beneficiario {
+	//Para el nombre la eleccion era obvia, al ser un programa sencillo, los nombres por lo general tienen un maximo de 100 caracteres.
 	char  nombre[100];
-	char fechaNac[20];//01/05/2018
+	//Para la fecha de Nacimiento se elige un char (string) porque no se evalua el formato, tanto puede ser una estrada como 22/08/1981 o 22-08-1981 o 22 de Agosto de 1981, no mas de 20 caracteres
+	char fechaNac[20];
+	//La edad es un entero, ya que nadie vive mas de 150 annios
 	int edad;
+	//Lo mismo para los Integrantes de la Familia, nadie tiene mas de 200 familiares directos en un solo nucleo familiar
 	int integrantesFam;
-	char tipoSangre[10]; //OH+ OH-
+	//Para el Tipo de Sangre es un char compuesto, ya que sus valores son similares a : OH+ OH- (No sobrepasa los 10 Caracteres)
+	char tipoSangre[10];
+	//El ID del registro es un entero, ya que podemos definir un maximo con la constante itemMax
 	int registroID;
 };
 
